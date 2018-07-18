@@ -1,0 +1,48 @@
+{
+  "name": "Wit-Facebook",
+  "version": "1.0.0",
+  "description": "Simple Wit-Facebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node bot.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "core-js/.*",
+      "sshpk/.*"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "babel-core": "^6.0.0",
+    "babel-jest": "^6.0.1",
+    "babel-polyfill": "^6.1.4",
+    "bl": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "google-spreadsheet": "^2.0.4",
+    "jest-cli": "^0.7.1",
+    "loopback": "^3.19.3",
+    "loopback-connector-soap": "^4.0.0",
+    "mssql": "^4.1.0",
+    "node-uuid": "^1.4.7",
+    "node-wit": "^3.2.2",
+    "nodemailer": "^4.6.6",
+    "request": "^2.83.0",
+    "soap": "^0.24.0",
+    "xlsx": "^0.11.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hunkim/Wit-Facebook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hunkim/Wit-Facebook/issues"
+  },
+  "homepage": "https://github.com/hunkim/Wit-Facebook#readme"
+}
